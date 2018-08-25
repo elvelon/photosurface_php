@@ -1,0 +1,14 @@
+[23-Aug-2018 13:04:15 UTC] PHP Fatal error:  Uncaught ReflectionException: Class Egulias\EmailValidator\EmailValidator does not exist in /home/rehad951/public_html/GrannysGallery/swiftmailer-master/lib/classes/Swift/DependencyContainer.php:327
+Stack trace:
+#0 /home/rehad951/public_html/GrannysGallery/swiftmailer-master/lib/classes/Swift/DependencyContainer.php(327): ReflectionClass->__construct('Egulias\\EmailVa...')
+#1 /home/rehad951/public_html/GrannysGallery/swiftmailer-master/lib/classes/Swift/DependencyContainer.php(341): Swift_DependencyContainer->createNewInstance('email.validator')
+#2 /home/rehad951/public_html/GrannysGallery/swiftmailer-master/lib/classes/Swift/DependencyContainer.php(117): Swift_DependencyContainer->createSharedInstance('email.validator')
+#3 /home/rehad951/public_html/GrannysGallery/swiftmailer-master/lib/classes/Swift/DependencyContainer.php(389): Swift_DependencyContainer->lookup('email.validator')
+#4 /home/rehad951/public_html/GrannysGallery/swiftmailer-master/lib/classes/Swift/DependencyContainer.php(366): Swift_Dependency in /home/rehad951/public_html/GrannysGallery/swiftmailer-master/lib/classes/Swift/DependencyContainer.php on line 327
+[23-Aug-2018 13:04:15 UTC] PHP Fatal error:  Uncaught ReflectionException: Class Egulias\EmailValidator\EmailValidator does not exist in /home/rehad951/public_html/GrannysGallery/swiftmailer-master/lib/classes/Swift/DependencyContainer.php:327
+Stack trace:
+#0 /home/rehad951/public_html/GrannysGallery/swiftmailer-master/lib/classes/Swift/DependencyContainer.php(327): ReflectionClass->__construct('Egulias\\EmailVa...')
+#1 /home/rehad951/public_html/GrannysGallery/swiftmailer-master/lib/classes/Swift/DependencyContainer.php(341): Swift_DependencyContainer->createNewInstance('email.validator')
+#2 /home/rehad951/public_html/GrannysGallery/swiftmailer-master/lib/classes/Swift/DependencyContainer.php(117): Swift_DependencyContainer->createSharedInstance('email.validator')
+#3 /home/rehad951/public_html/GrannysGallery/swiftmailer-master/lib/classes/Swift/DependencyContainer.php(389): Swift_DependencyContainer->lookup('email.validator')
+#4 /home/rehad951/public_html/GrannysGallery/swiftmailer-master/lib/classes/Swift/DependencyContainer.php(366): Swift_Dependency in /home/rehad951/public_html/GrannysGallery/swiftmailer-master/lib/classes/Swift/DependencyContainer.php on line 327
